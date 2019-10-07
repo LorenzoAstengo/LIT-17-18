@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageRecognition", "ImageRecognitionByCorners\ImageRecognition.csproj", "{18B7B824-BB16-41E0-AA96-5FD9918EED8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3BA1AD4C-831A-4251-9FEB-07378B9DFC2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageRecognitionForm", "ImageRecognitionForm\ImageRecognitionForm.csproj", "{AF4576B1-6BA7-47A7-8CE0-4C507EED09CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{A4C3B01B-F654-4EA3-A67A-D85DBB618745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfImageRecognitionServiceLibrary", "WcfImageRecognitionServiceLibrary\WcfImageRecognitionServiceLibrary.csproj", "{589128C5-74B4-473F-8B32-BEB43416D5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfImageRecognitorHost", "WcfImageRecognitorHost\WcfImageRecognitorHost.csproj", "{CF144AD8-4B7E-4D14-A56D-057BB55477B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfImageRecognitionClient", "WcfImageRecognitionClient\WcfImageRecognitionClient.csproj", "{A398CADD-1ADA-4711-9857-235E4C2DBE06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18B7B824-BB16-41E0-AA96-5FD9918EED8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B7B824-BB16-41E0-AA96-5FD9918EED8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B7B824-BB16-41E0-AA96-5FD9918EED8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B7B824-BB16-41E0-AA96-5FD9918EED8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA1AD4C-831A-4251-9FEB-07378B9DFC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA1AD4C-831A-4251-9FEB-07378B9DFC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA1AD4C-831A-4251-9FEB-07378B9DFC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA1AD4C-831A-4251-9FEB-07378B9DFC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4576B1-6BA7-47A7-8CE0-4C507EED09CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4576B1-6BA7-47A7-8CE0-4C507EED09CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4576B1-6BA7-47A7-8CE0-4C507EED09CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4576B1-6BA7-47A7-8CE0-4C507EED09CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C3B01B-F654-4EA3-A67A-D85DBB618745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C3B01B-F654-4EA3-A67A-D85DBB618745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C3B01B-F654-4EA3-A67A-D85DBB618745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C3B01B-F654-4EA3-A67A-D85DBB618745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589128C5-74B4-473F-8B32-BEB43416D5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589128C5-74B4-473F-8B32-BEB43416D5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589128C5-74B4-473F-8B32-BEB43416D5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589128C5-74B4-473F-8B32-BEB43416D5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF144AD8-4B7E-4D14-A56D-057BB55477B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF144AD8-4B7E-4D14-A56D-057BB55477B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF144AD8-4B7E-4D14-A56D-057BB55477B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF144AD8-4B7E-4D14-A56D-057BB55477B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A398CADD-1ADA-4711-9857-235E4C2DBE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A398CADD-1ADA-4711-9857-235E4C2DBE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A398CADD-1ADA-4711-9857-235E4C2DBE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A398CADD-1ADA-4711-9857-235E4C2DBE06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA2E3657-5299-4D4F-897A-4F5CD8E9EADF}
+	EndGlobalSection
+EndGlobal
